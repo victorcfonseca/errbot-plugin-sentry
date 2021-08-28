@@ -6,10 +6,10 @@
 ![sentry](images/sentry.png)
 ![github](images/github.png)
 
-This plugin is designed to be run inside an [errbot-based](https://errbot.readthedocs.io/en/latest/) bot and installed in your Slack workspace. The idea is to give autonomy to any developer in an IT Engineering structure instead of having to open a ticket and wait for the activity to be done. When invoked, it will:
+This plugin is designed to be run inside an [errbot-based](https://errbot.readthedocs.io/en/latest/) bot and installed in your Slack workspace. The idea is to give autonomy to any developer in an IT Engineering structure to create a project within Sentry instead of having to open a ticket and wait for the activity to be done. When invoked, the bot  will:
 
 1. [create a new project in Sentry](https://docs.sentry.io/product/sentry-basics/guides/integrate-frontend/create-new-project/) based on input from a requester and already assign it to a previously created team
-2. add the repository informed if it has [Sentry x Github integration](https://sentry.io/integrations/github/).
+2. if the Sentry organization has integration with Github, it will add the repository informed in this integration (to know more about this integration, click [here](https://sentry.io/integrations/github/))
 
 ## How its works?
 As with all [other plugins](https://github.com/topics/errbot-plugins), the 'sentry.plug' and 'sentry.py' files must be placed inside the errbot's /plugins/<your-directory-plugin-name> directory, as in the structure shown below:
@@ -42,3 +42,4 @@ Example:
 @your_bot sentry create project *vf-validate-java-monitoring* for *sre*
 ```
 
+## Sintaxe
