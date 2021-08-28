@@ -2,8 +2,8 @@
 
 #sentry #github #errbot #slack
 
-![errbot](https://uploaddeimagens.com.br/imagens/XUXJyGk)
-![sentry](https://uploaddeimagens.com.br/imagens/30MTNgs)
+![errbot](images/err_speech.png)
+![sentry](images/sentry.png)
 ![github]()
 
 This plugin is designed to be run inside an [errbot-based](https://errbot.readthedocs.io/en/latest/) bot and installed in your Slack workspace. The idea is to give autonomy to any developer in an IT Engineering structure instead of having to open a ticket and wait for the activity to be done. When invoked, it will:
