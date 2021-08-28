@@ -14,9 +14,10 @@ class Sentry(BotPlugin):
         '''
 
         # get evns
-        org_github = os.environ['GITHUB_ORG']
-        org_slug = os.environ['SENTRY_ORG_SLUG']
-        token = os.environ['SENTRY_TOKEN']
+        org_github                      = os.environ['GITHUB_ORG']
+        org_slug                        = os.environ['SENTRY_ORG_SLUG']
+        token                           = os.environ['SENTRY_TOKEN']
+        sentry_github_integration_id    = os.environ['SENTRY_GITHUB_ID']
 
         # headers
         headers = {"Content-Type": "application/json", "Authorization": "Bearer {token}".format(token=token)}
@@ -103,7 +104,7 @@ class Sentry(BotPlugin):
 
         url = "https://sentry.io/api/0/organizations/{org_slug}/repos/".format(org_slug=org_slug)
 
-        response = requests.post(url, headers=headers, json={"installation": "6070", "identifier": "" + org_github + "/" + repo + "", "provider": "integrations:github"})
+        response = requests.post(url, headers=headers, json={"installation": "" + sentry_github_integration_id + "", "identifier": "" + org_github + "/" + repo + "", "provider": "integrations:github"})
 
         if response.status_code == 201:
             self.send(

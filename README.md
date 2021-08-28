@@ -13,7 +13,12 @@ As with all [other plugins](https://github.com/topics/errbot-plugins), the 'sent
 - [SENTRY_TOKEN]
 
 ## Sintaxe
+You need to pass two parameters in the command to your bot:
+- name of the project to be created within Sentry
+- team created within Sentry
+
+Example:
 ```
-@your_bot sentry create project vf-validate-java-monitoring
+@your_bot sentry create project *vf-validate-java-monitoring* for *sre*
 ```
 
