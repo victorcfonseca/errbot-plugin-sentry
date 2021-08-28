@@ -46,12 +46,11 @@ You must to pass two parameters in the command to your bot:
 - name of the project to be created within Sentry
 - team created within Sentry
 
-Example:
-
-`@your_bot sentry create project <your_project_name> for <your_sentry_team_name>`
+Example: `@your_bot sentry create project <your_project_name> for <your_sentry_team_name>`
 
 
 ## 🔍 Results
+If the variables, permissions, project name and team are correct the bot will create our project and respond successfully! ✅
 
 ![errbot](images/errbot_slack_sentry.png)
 
