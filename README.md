@@ -43,3 +43,7 @@ Example:
 ```
 
 ## Sintaxe
+
+
+✍️ Contributing
+Any contributions you make are much appreciated.
