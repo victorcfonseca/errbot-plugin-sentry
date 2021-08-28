@@ -6,7 +6,11 @@
 ![sentry](images/sentry.png)
 ![github](images/github.png)
 
-This plugin is designed to be run inside an [errbot-based](https://errbot.readthedocs.io/en/latest/) bot and installed in your Slack workspace. The idea is to give autonomy to any developer in an IT Engineering structure to create a project within Sentry instead of having to open a ticket and wait for the activity to be done. When invoked, the bot  will:
+
+## 📚Documentation
+This plugin is designed to be run inside an [errbot-based](https://errbot.readthedocs.io/en/latest/) bot and installed in your Slack workspace. Its structure points to the [Sentry Cloud](https://sentry.io/), but apparently you just need to adjust the URLs in the [sentry.py](sentry.py) if your Sentry is hosted on-premise.
+
+The idea is to give autonomy to any developer in an IT Engineering structure to create a project within Sentry instead of having to open a ticket and wait for the activity to be done. When invoked, the bot  will:
 
 1. [create a new project in Sentry](https://docs.sentry.io/product/sentry-basics/guides/integrate-frontend/create-new-project/) based on input from a requester and already assign it to a previously created team
 2. if the Sentry organization has integration with Github, it will add the repository informed in this integration (to know more about this integration, click [here](https://sentry.io/integrations/github/))
