@@ -26,6 +26,10 @@ It has been tested and validated on Slack with the following packages:
 - slackclient 1.3.2 (`pip list` to check installed packages)
 - websocket-client 0.54.0 (`pip list` to check installed packages)
 
+errbot  |  slackclient |  websocket-client | 
+------- | ----------- | -------------- | 
+  6.1.7  |   1.3.2     |    0.54.0     |
+
 ## Environment Variables
 To make this plugin usable for everyone, some environment variables need to be given to errbot.
 - [GITHUB_ORG](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-user-account/managing-your-membership-in-organizations/accessing-an-organization)
