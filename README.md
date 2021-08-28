@@ -22,13 +22,12 @@ As with all [other plugins](https://github.com/topics/errbot-plugins), the 'sent
 ```
 
 It has been tested and validated on Slack with the following packages:
-- errbot 6.1.7 (`!about` to check version)
-- slackclient 1.3.2 (`pip list` to check installed packages)
-- websocket-client 0.54.0 (`pip list` to check installed packages)
 
 errbot  |  slackclient |  websocket-client | 
 ------- | ----------- | -------------- | 
   6.1.7  |   1.3.2     |    0.54.0     |
+
+You can use `!about` to check errbot version and `pip list` to check installed packages.
 
 ## Environment Variables
 To make this plugin usable for everyone, some environment variables need to be given to errbot.
