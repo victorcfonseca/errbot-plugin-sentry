@@ -48,5 +48,8 @@ Example:
 
 **Attention:** if you inform a repository that does not exist in your GitHub account or your integration between Sentry x Github is not done, the second step of the plugin will fail.
 
+## Results
+![errbot](images/errbot_slack_sentry.png)
+
 ## ✍️ Contributing
 Any contributions you make are much appreciated.
