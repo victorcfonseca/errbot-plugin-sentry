@@ -47,9 +47,9 @@ You must to pass two parameters in the command to your bot:
 - team created within Sentry
 
 Example:
-```
-@your_bot sentry create project <your_project_name> for <your_sentry_team_name>
-```
+
+`@your_bot sentry create project <your_project_name> for <your_sentry_team_name>`
+
 
 ## 🔍 Results
 
