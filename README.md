@@ -11,7 +11,7 @@ This plugin is designed to be run inside an [errbot-based](https://errbot.readth
 1. [create a new project in Sentry](https://docs.sentry.io/product/sentry-basics/guides/integrate-frontend/create-new-project/) based on input from a requester and already assign it to a previously created team
 2. if the Sentry organization has integration with Github, it will add the repository informed in this integration (to know more about this integration, click [here](https://sentry.io/integrations/github/))
 
-## How its works?
+## ⚙️ How its works?
 As with all [other plugins](https://github.com/topics/errbot-plugins), the 'sentry.plug' and 'sentry.py' files must be placed inside the errbot's /plugins/<your-directory-plugin-name> directory, as in the structure shown below:
 ```
 |_ errbot
@@ -46,7 +46,7 @@ Example:
 @your_bot sentry create project <your_project_name> for <your_sentry_team_name>
 ```
 
-## Results
+## 🔍 Results
 
 ![errbot](images/errbot_slack_sentry.png)
 
