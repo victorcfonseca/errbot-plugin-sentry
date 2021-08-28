@@ -1,0 +1,9 @@
+[Core]
+name = Sentry
+module = sentry
+
+[Documentation]
+description = Manage Sentry projects
+
+[Python]
+version = 3
