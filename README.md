@@ -27,6 +27,7 @@ It has been tested and validated on Slack with the following packages:
 - websocket-client 0.54.0 (`pip list` to check installed packages)
 
 ## Environment Variables
+To make this plugin usable for everyone, some environment variables need to be given to errbot.
 - [GITHUB_ORG](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-user-account/managing-your-membership-in-organizations/accessing-an-organization)
 - [SENTRY_ORG_SLUG]
 - [SENTRY_TOKEN]
@@ -42,8 +43,7 @@ Example:
 @your_bot sentry create project *vf-validate-java-monitoring* for *sre*
 ```
 
-## Sintaxe
+**Attention:** if you inform a repository that does not exist in your GitHub account or your integration between Sentry x Github is not done, the second step of the plugin will fail.
 
-
-✍️ Contributing
+## ✍️ Contributing
 Any contributions you make are much appreciated.
