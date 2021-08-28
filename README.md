@@ -4,7 +4,7 @@
 
 ![errbot](images/err_speech.png)
 ![sentry](images/sentry.png)
-![github]()
+![github](images/github.png)
 
 This plugin is designed to be run inside an [errbot-based](https://errbot.readthedocs.io/en/latest/) bot and installed in your Slack workspace. The idea is to give autonomy to any developer in an IT Engineering structure instead of having to open a ticket and wait for the activity to be done. When invoked, it will:
 
