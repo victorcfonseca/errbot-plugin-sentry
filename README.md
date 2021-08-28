@@ -7,8 +7,8 @@
 ![github](images/github.png)
 
 
-## 📚Documentation
-This plugin is designed to be run inside an [errbot-based](https://errbot.readthedocs.io/en/latest/) bot and installed in your Slack workspace. Its structure points to the [Sentry Cloud](https://sentry.io/), but apparently you just need to adjust the URLs in the [sentry.py](sentry.py) if your Sentry is hosted on-premise.
+## 📚 Documentation
+This plugin is designed to be run inside an [errbot-based](https://errbot.readthedocs.io/en/latest/) bot installed in your Slack workspace. Its structure points to the [Sentry Cloud](https://sentry.io/), but apparently you just need to adjust the URLs in the [sentry.py](sentry.py) if your Sentry is hosted on-premise.
 
 The idea is to give autonomy to any developer in an IT Engineering structure to create a project within Sentry instead of having to open a ticket and wait for the activity to be done. When invoked, the bot  will:
 
@@ -36,8 +36,8 @@ You can use `!about` to check errbot version and `pip list` to check installed p
 ## Environment Variables
 To make this plugin usable for everyone, some environment variables need to be given to errbot.
 - [GITHUB_ORG](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-user-account/managing-your-membership-in-organizations/accessing-an-organization)
-- [SENTRY_ORG_SLUG]
-- [SENTRY_TOKEN]
+- [SENTRY_TOKEN](https://sentry.io/settings/account/api/auth-tokens/)
+- [SENTRY_ORG_SLUG](https://docs.sentry.io/api/organizations/list-your-organizations/)
 - [SENTRY_GITHUB_INTEGRATION_ID]
 
 ## Sintaxe
