@@ -46,10 +46,14 @@ Example:
 @your_bot sentry create project *vf-validate-java-monitoring* for *sre*
 ```
 
-**Attention:** if you inform a repository that does not exist in your GitHub account or your integration between Sentry x Github is not done, the second step of the plugin will fail.
-
 ## Results
+
 ![errbot](images/errbot_slack_sentry.png)
+
+**Attention:** if you inform a repository that does not exist in your GitHub account or its integration between Sentry x Github is not done, the project will be created inside Sentry, but the second step of the plugin will fail.
+![errbot](images/repo_doesnt_exist.png)
+
+And finally, if you inform a Sentry team that doesn't exist, the bot will return to the requester informing you of the error and give a list of all teams created within the configured Sentry Organization.
 
 ## ✍️ Contributing
 Any contributions you make are much appreciated.
