@@ -37,13 +37,13 @@ To make this plugin usable for everyone, some environment variables need to be g
 - [SENTRY_GITHUB_INTEGRATION_ID]
 
 ## Sintaxe
-You need to pass two parameters in the command to your bot:
+You must to pass two parameters in the command to your bot:
 - name of the project to be created within Sentry
 - team created within Sentry
 
 Example:
 ```
-@your_bot sentry create project *vf-validate-java-monitoring* for *sre*
+@your_bot sentry create project <your_project_name> for <your_sentry_team_name>
 ```
 
 ## Results
@@ -54,6 +54,7 @@ Example:
 ![errbot](images/repo_doesnt_exist.png)
 
 And finally, if you inform a Sentry team that doesn't exist, the bot will return to the requester informing you of the error and give a list of all teams created within the configured Sentry Organization.
+![errbot](images/team_doesnt_exist.png)
 
 ## ✍️ Contributing
 Any contributions you make are much appreciated.
